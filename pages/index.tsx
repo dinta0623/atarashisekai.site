@@ -27,12 +27,7 @@ export default function Home() {
                 <button className={styles.join_btn}>Gabung</button>
               </a>
             </section>
-            <Image
-              width="398px"
-              height="528px"
-              quality="100"
-              src="/assets/dc.png"
-            />
+            <img src="/assets/dc.png" />
           </div>
         </div>
 
