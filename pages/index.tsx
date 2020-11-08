@@ -297,7 +297,7 @@ export default function Home() {
               </div>
               <div className="box">
                 <h3>Developer</h3>
-                <span> dinta</span>
+                <span> ryuuki</span>
               </div>
               <div className="box">
                 <h3>Pilar</h3>
