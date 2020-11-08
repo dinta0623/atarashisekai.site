@@ -10,7 +10,7 @@ export default function Home() {
     <Fragment>
       <Head>
         <title>
-          Atarashii Sekai | Komunitas Anime Indonesia yang Berbasis di Discord
+          Atarashi Sekai | Komunitas Anime Indonesia yang Berbasis di Discord
         </title>
         <meta title="description" content={description} />
       </Head>
@@ -20,12 +20,13 @@ export default function Home() {
             <section>
               <h1>
                 Selamat Datang <br />
-                Di Atarashii Sekai
+                Di Atarashi Sekai
               </h1>
               <p>{description}</p>
-              <a href="https://discord.com/invite/Vr5HR6B">
-                <button className={styles.join_btn}>Gabung</button>
-              </a>
+
+              <button className={styles.join_btn}>
+                <a href="https://discord.com/invite/Vr5HR6B">Gabung </a>
+              </button>
             </section>
             <img src="/assets/dc.png" />
           </div>
