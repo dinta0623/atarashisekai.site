@@ -1,0 +1,58 @@
+@import "./variabels.module.scss";
+
+@mixin transitionX($from, $time) {
+  animation: transition $time ease;
+  @keyframes transition {
+    from {
+      opacity: 0;
+      transform: translateX($from);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
+
+@mixin transitionY($from, $time) {
+  animation: transition $time ease;
+  @keyframes transition {
+    from {
+      opacity: 0;
+      transform: translateY($from);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+@mixin gradient-animation($start, $end, $transTime) {
+  @keyframes transition {
+    from {
+      background: linear-gradient(to right, $start, $end);
+      background-clip: text;
+      color: transparent;
+    }
+    to {
+      background: linear-gradient(to left, $end, $start);
+      background-clip: text;
+      color: transparent;
+    }
+  }
+  animation: transition 0.5s ease infinite alternate;
+}
+
+@mixin letterSpacing {
+  $value: -0.07rem;
+  letter-spacing: $value;
+  -webkit-letter-spacing: $value;
+  -moz-letter-spacing: $value;
+  -ms-letter-spacing: $value;
+}
+@mixin a-login {
+  padding: 15px 20px;
+  color: $whitesmoke;
+  background-color: $dark-color;
+}

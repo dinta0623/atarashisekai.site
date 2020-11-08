@@ -1,0 +1,64 @@
+@use "./mixins.module.scss" as theme;
+@import "./variabels.module.scss";
+
+html,
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-size: $font-size;
+  font-feature-settings: "kern";
+  line-height: 1.1;
+  letter-spacing: -0.05rem;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  &::selection {
+    color: $whitesmoke;
+    background-color: $dark-color;
+  }
+}
+
+header {
+  background-color: $whitesmoke;
+  padding: 10px;
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    @include theme.transitionY(-5rem, 1.5s);
+    span {
+      font-weight: 700;
+      font-size: 20px;
+      padding: 10px;
+      @include theme.letterSpacing();
+    }
+    a {
+      color: $dark-color;
+      margin: auto 5px;
+      padding: 15px 10px;
+      border-radius: $border-size;
+      border: none;
+      &:nth-child(3) {
+        @include theme.a-login();
+      }
+      &:hover {
+        background-color: white;
+        &:nth-child(3) {
+          @include theme.a-login();
+        }
+      }
+      @include theme.letterSpacing();
+    }
+  }
+}

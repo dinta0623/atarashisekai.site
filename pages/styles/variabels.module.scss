@@ -1,0 +1,17 @@
+$dark-color: #1a202c;
+$font-size: 18px;
+$border-size: 10px;
+$whitesmoke: #f8f8f8;
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+@keyframes gerak-keatas {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-0.7rem);
+  }
+}
