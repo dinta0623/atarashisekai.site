@@ -31,7 +31,6 @@ export default function Home() {
               width="398px"
               height="528px"
               quality="100"
-              loading="lazy"
               src="/assets/dc.png"
             />
           </div>
