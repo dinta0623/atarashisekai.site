@@ -1,6 +1,6 @@
 import Head from "next/head"
 import { Fragment } from "react"
-import Image from "next//image"
+import Image from "next/image"
 import styles from "./styles/home.module.scss"
 
 export default function Home() {
@@ -27,7 +27,13 @@ export default function Home() {
                 <button className={styles.join_btn}>Gabung</button>
               </a>
             </section>
-            <img src="/assets/dc.png" />
+            <Image
+              width="398px"
+              height="528px"
+              quality="100"
+              loading="lazy"
+              src="/assets/dc.png"
+            />
           </div>
         </div>
 
