@@ -25,7 +25,7 @@ export default function Home() {
               <p>{description}</p>
 
               <button className={styles.join_btn}>
-                <a href="https://discord.com/invite/Vr5HR6B">Gabung </a>
+                <a href="https://discord.gg/3QMgZqxDk8">Gabung </a>
               </button>
             </section>
             <img src="/assets/dc.png" />
@@ -287,12 +287,12 @@ export default function Home() {
               <div className="box">
                 <h3>Founder</h3>
                 <span>
-                  Ali <br /> Ferlia <br />
+                  Bang Ali <br /> Neng Ferlia <br />
                 </span>
               </div>
               <div className="box">
                 <h3>Developer</h3>
-                <span> ryuuki</span>
+                <span> dinta</span>
               </div>
               <div className="box">
                 <h3>Pilar</h3>
