@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }) {
           <nav>
             <span>AtarashiiSekai</span>
             <ul>
-              <Link href="discord">Discord</Link>
+              <Link href="https://discord.gg/3QMgZqxDk8">Discord</Link>
               <Link href="about">Tentang Kami</Link>
               <Link href="https://app.atarashisekai.site">Masuk</Link>
             </ul>
