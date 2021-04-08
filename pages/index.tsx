@@ -24,8 +24,8 @@ export default function Home() {
               </h1>
               <p>{description}</p>
 
-              <button className={styles.join_btn}>
-                <a href="https://discord.gg/3QMgZqxDk8">Gabung </a>
+              <button className={styles.join_btn} href="https://discord.gg/3QMgZqxDk8">
+                <a>Gabung </a>
               </button>
             </section>
             <img src="/assets/dc.png" />
