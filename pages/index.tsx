@@ -33,7 +33,7 @@ export default function Home() {
         </div>
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
-          <path fill="#f8f8f8" fillOpacity="1" d="M0,64L1440,0L1440,0L0,0Z" />
+          <path fill="#ffffff" fillOpacity="1" d="M0,64L1440,0L1440,0L0,0Z" />
         </svg>
 
         <div id={styles.info}>
